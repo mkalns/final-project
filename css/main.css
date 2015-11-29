@@ -1,7 +1,7 @@
 /* 
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Vault of the Macabre
+Client: Darren J Field
+Author: Mark Kalns
 */
 
 /******************************************
@@ -23,28 +23,40 @@ Author: Your Name
 /*******************************************/
 
 /* add type styles here */
+@font-face {
+  font-family: 'AR DARLING';
+  src: url('http://www.fontsaddict.com/fontface/ar-darling.ttf');
+}
 
 
 /******************************************
 /* LAYOUT                   
 /*******************************************/
 
+html {
+	background-color: black;
+}
+
 .site-container {
 	max-width: 960px;
 	margin: 0 auto;
+	background-color: black;
+	color: #770001;
 }
 
 .site-header {
-
 }
 .site-header h1 {
-	color:red;
+	font-size: 90px;
+	text-align: center;
+	color: #770001;
+	font-family: 'ardarling', 'cracked';
 }
-.site-content {
 
+.site-content {
 }
 .site-footer {
-
+	color: #770001;
 }
 
 /******************************************
